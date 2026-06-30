@@ -1,0 +1,5 @@
+{
+  "python.defaultInterpreterPath": "/home/elicesjo/Formation/PROJET-12-/.venv/bin/python3",
+  "jupyter.kernels.filter": [],
+  "jupyter.notebookFileRoot": "${workspaceFolder}"
+}

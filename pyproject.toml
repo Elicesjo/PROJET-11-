@@ -1,0 +1,18 @@
+[project]
+name = "projet-12"
+version = "0.1.0"
+description = "Détection de faux billets — ONCFM"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "jupyter>=1.1.1",
+    "matplotlib>=3.10.0",
+    "numpy>=2.0.0",
+    "openpyxl>=3.1.5",
+    "pandas>=2.2.0",
+    "scikit-learn>=1.5.0",
+    "seaborn>=0.13.0",
+    "joblib>=1.4.0",
+    "python-pptx>=1.0.2",
+    "pillow>=12.2.0",
+]
