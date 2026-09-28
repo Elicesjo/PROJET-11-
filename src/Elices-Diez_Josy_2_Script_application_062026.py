@@ -51,7 +51,7 @@ def predict_labels(X_scaled, model):
 
 def run_csv(path, model, scaler, imputer):
     try:
-        df = pd.read_csv(path, sep=";")
+        df = pd.read_csv(path, sep=None, engine="python")
     except FileNotFoundError:
         sys.exit(f"Erreur : fichier introuvable — {path}")
 

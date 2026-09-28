@@ -8,3 +8,12 @@ wheels/
 
 # Virtual environments
 .venv
+
+# WSL/Windows metadata artifacts
+*:Zone.Identifier
+
+# Claude Code working notes
+.claude/
+
+# Submission archive (redundant with tracked source files)
+Detection_faux_billets_Elices-Diez_Josy.zip
